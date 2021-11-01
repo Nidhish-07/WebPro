@@ -1,0 +1,51 @@
+* {
+  flex: content;
+  align-items: center;
+}
+
+h1 {
+  color: cornsilk;
+  font-size: 35px;
+}
+p {
+  color: blue;
+  font-size: 20px;
+}
+.form {
+  background-color: teal;
+  margin: 50px;
+  padding: 50px;
+}
+
+navbar {
+  position: absolute;
+  padding: 10px;
+  display: table;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  top: 0;
+}
+
+.choice {
+  color: black;
+}
+
+#ans {
+  background-color: black;
+  display: inline-block;
+  width: 150px;
+  color: aliceblue;
+}
+div {
+  background-image: url("./colourful-math-numbers-with-calculator-close-up.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 400px) {
+  * {
+    text-align: center;
+  }
+}
